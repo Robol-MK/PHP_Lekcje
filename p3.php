@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Samochody</title>
 </head>
-<body>
+<body><a href="index.php"><button>główna</button></a>
 
 <?php
 $s1 = "Mercedes";
@@ -18,8 +18,8 @@ $m4 = "Gtr r35";
 
 echo "<table border='1'>
 <tr>
-    <th>Samochod</th>
     <th>Marka</th>
+    <th>Model</th>
 </tr>
 <tr>
     <td>$s1</td>

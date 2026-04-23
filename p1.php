@@ -8,7 +8,7 @@
         
     </style>
 </head>
-<body>
+<body><a href="index.php"><button>główna</button></a>
     
     <h1 style = 'color:blue'>Porównanie skryptu  JS Z PHP</h1>
     <?php

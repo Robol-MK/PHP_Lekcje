@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body><a href="index.php"><button>główna</button></a>
 <!--Napisz skrypt php który zawartość
  zmiennych $s1,$s2, $s3,$s4 które 
  przechowuja marki samochodów (wypelnij
