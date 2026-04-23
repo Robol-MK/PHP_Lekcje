@@ -7,8 +7,17 @@
 </head>
 <body>
     <h1>Pracownicy:</h1>
+   <form method="POST">
+    <p>Wpisz Pracownika np (Jan;Kowalski;magazynier;4200)<input type="text" name ="pracownicy"></p>
+     <p>Jak chcesz wpisać kolejnego to dopisz *</p>
+     <input type="submit" value="Dodaj" name="btRozdziel"/>
+     </form>
+    
 <?php 
-$pracownicy = "Jan;Kowalski;magazynier;4200*Tomasz;Nowak;spawacz;5600*Barbara;Kwiatkowska;księgowa;6700*Maciek;Kulik;uczem;0";
+if (isset($_POST["btRozdziel"]))
+    {
+$pracownicy = $_POST["pracownicy"];
+//$pracownicy = "Jan;Kowalski;magazynier;4200*Tomasz;Nowak;spawacz;5600*Barbara;Kwiatkowska;księgowa;6700*Maciek;Kulik;Programist;6600*Tung Tung Tung;Sahur;Bezrobotny;67";
 
 $lista = explode("*", $pracownicy);
 
@@ -25,6 +34,7 @@ foreach ($lista as $osoba) {
 }
 
 echo "</table>";
+    }
 ?>
 </body>
 </html>
