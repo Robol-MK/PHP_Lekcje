@@ -21,6 +21,7 @@
     <a href="zad1.php"><button>zad1</button></a>
     <a href="zad2.php"><button>zad2</button></a>
     <a href="zad3.php"><button>zad3</button></a>
+    <a href="zad4.php"><button>zad4</button></a>
 </body>
 </body>
 </html>
