@@ -22,6 +22,9 @@
     <a href="zad2.php"><button>zad2</button></a>
     <a href="zad3.php"><button>zad3</button></a>
     <a href="zad4.php"><button>zad4</button></a>
+    <a href="zad5.php"><button>zad5</button></a>
+    <a href="zadciezkie1.php"><button>zadciezkie1</button></a>
+    <a href="zadciezkie2.php"><button>zadciezkie2</button></a>
 </body>
 </body>
 </html>

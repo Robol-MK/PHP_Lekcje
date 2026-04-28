@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <a href="index.php"><button>główna</button></a>
     <h1>Pracownicy:</h1>
    <form method="POST">
     <p>Wpisz Pracownika np (Jan;Kowalski;magazynier;4200)<input type="text" name ="pracownicy"></p>
